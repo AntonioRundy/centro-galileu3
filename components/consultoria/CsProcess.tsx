@@ -19,7 +19,7 @@ const itemVariants = {
 
 export default function CsProcess() {
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.65 }} className="mb-20">
           <span className="text-xs font-semibold tracking-[0.26em] uppercase block mb-4" style={{ color: "#C5A880" }}>Processo</span>
@@ -32,7 +32,7 @@ export default function CsProcess() {
           variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-40px" }}>
           {phases.map(({ n, title, desc }) => (
             <motion.div key={n} variants={itemVariants} className="rounded-2xl p-10 lg:p-11"
-              style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)" }}>
+              style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)" }}>
               <span className="text-xs font-bold tracking-[0.24em] uppercase block mb-8" style={{ color: "rgba(197,168,128,0.50)" }}>{n}</span>
               <h3 className={`${cormorant.className} font-semibold text-xl mb-4 leading-tight`} style={{ color: "#FFFFFF" }}>{title}</h3>
               <p className="text-sm leading-[1.82]" style={{ color: "rgba(244,244,242,0.52)" }}>{desc}</p>

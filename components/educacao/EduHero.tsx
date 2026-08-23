@@ -11,7 +11,7 @@ export default function EduHero() {
   return (
     <section
       className="relative min-h-screen flex items-center overflow-hidden px-4 sm:px-6 lg:px-8"
-      style={{ backgroundColor: "#070D1B" }}
+      style={{ backgroundColor: "#0E1B33" }}
     >
       {/* Dot grid */}
       <div className="absolute inset-0 opacity-[0.025] pointer-events-none"
@@ -107,7 +107,7 @@ export default function EduHero() {
                 style={{ height: "500px", filter: "brightness(0.88) contrast(1.05)" }}
               />
               <div className="px-7 py-6"
-                style={{ backgroundColor: "#111520", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+                style={{ backgroundColor: "#132038", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
                 <p className="text-xs font-semibold tracking-[0.20em] uppercase mb-1" style={{ color: "#C5A880" }}>
                   Acompanhamento personalizado
                 </p>

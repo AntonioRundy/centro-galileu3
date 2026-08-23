@@ -55,7 +55,7 @@ export default function DivisionsGateway() {
   const [hovered, setHovered] = useState<string | null>(null);
 
   return (
-    <section className="px-4 sm:px-6 lg:px-8 pb-28 lg:pb-36" style={{ backgroundColor: "#070D1B" }}>
+    <section className="px-4 sm:px-6 lg:px-8 pb-28 lg:pb-36" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto">
 
         {/* Divider */}
@@ -86,7 +86,7 @@ export default function DivisionsGateway() {
                   onMouseLeave={() => setHovered(null)}
                   className="group relative flex flex-col justify-between rounded-2xl p-11 lg:p-12 min-h-[420px] transition-all duration-350 block"
                   style={{
-                    backgroundColor: isHovered ? "#131c2e" : "#111520",
+                    backgroundColor: isHovered ? "#131c2e" : "#132038",
                     border: isHovered
                       ? `1px solid ${div.hoverBorder}`
                       : "1px solid rgba(255,255,255,0.07)",

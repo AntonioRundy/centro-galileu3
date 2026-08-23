@@ -97,7 +97,7 @@ export default function Navbar() {
 
       {/* Mobile drawer */}
       {menuOpen && (
-        <div className="md:hidden border-t border-white/5 px-4 pb-6 pt-3 animate-fade-in" style={{ backgroundColor: "#070D1B" }}>
+        <div className="md:hidden border-t border-white/5 px-4 pb-6 pt-3 animate-fade-in" style={{ backgroundColor: "#0E1B33" }}>
           <ul className="flex flex-col gap-1 mb-4">
             {navLinks.map((link) => {
               const isActive = pathname.includes(link.href);

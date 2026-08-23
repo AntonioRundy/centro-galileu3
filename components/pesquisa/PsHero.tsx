@@ -10,7 +10,7 @@ export default function PsHero() {
   return (
     <section
       className="relative min-h-screen flex items-center overflow-hidden px-4 sm:px-6 lg:px-8"
-      style={{ backgroundColor: "#070D1B" }}
+      style={{ backgroundColor: "#0E1B33" }}
     >
       {/* CSS grid lines — data/tech aesthetic */}
       <div className="absolute inset-0 pointer-events-none" style={{

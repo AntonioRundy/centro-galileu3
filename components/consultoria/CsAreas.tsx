@@ -23,7 +23,7 @@ const itemVariants = { hidden: { opacity: 0, scale: 0.96 }, visible: { opacity: 
 
 export default function CsAreas() {
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.65 }} className="mb-20">
           <span className="text-xs font-semibold tracking-[0.26em] uppercase block mb-4" style={{ color: "#C5A880" }}>Abrangência</span>
@@ -41,7 +41,7 @@ export default function CsAreas() {
               {areas.map((a) => (
                 <motion.div key={a} variants={itemVariants}
                   className="px-4 py-3 rounded-xl text-xs font-medium cursor-default transition-all duration-250"
-                  style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)", color: "rgba(244,244,242,0.60)" }}
+                  style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)", color: "rgba(244,244,242,0.60)" }}
                   whileHover={{ borderColor: "rgba(197,168,128,0.22)", color: "#F4F4F2" }}>
                   {a}
                 </motion.div>
@@ -54,7 +54,7 @@ export default function CsAreas() {
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
               {tools.map(({ name, desc }) => (
                 <div key={name} className="rounded-xl p-5"
-                  style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)" }}>
+                  style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)" }}>
                   <p className={`${cormorant.className} font-bold text-xl mb-1`} style={{ color: "#FFFFFF" }}>{name}</p>
                   <p className="text-xs" style={{ color: "rgba(244,244,242,0.42)" }}>{desc}</p>
                 </div>

@@ -18,7 +18,7 @@ export default function DivisionHero({
   return (
     <section
       className="relative pt-36 pb-24 lg:pt-44 lg:pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden"
-      style={{ backgroundColor: "#070D1B" }}
+      style={{ backgroundColor: "#0E1B33" }}
     >
       {/* Dot grid */}
       <div

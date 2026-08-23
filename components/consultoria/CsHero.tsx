@@ -9,7 +9,7 @@ const WA = `https://wa.me/244946038986?text=${encodeURIComponent("Olá! Gostaria
 export default function CsHero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden px-4 sm:px-6 lg:px-8"
-      style={{ backgroundColor: "#070D1B" }}>
+      style={{ backgroundColor: "#0E1B33" }}>
 
       {/* Fine dot grid — academic paper texture */}
       <div className="absolute inset-0 pointer-events-none opacity-[0.022]" style={{

@@ -48,7 +48,7 @@ const cardVariants = {
 
 export default function EduServices() {
   return (
-    <section id="servicos" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section id="servicos" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto">
 
         {/* Section header */}
@@ -93,7 +93,7 @@ export default function EduServices() {
               key={n}
               variants={cardVariants}
               className="group rounded-2xl overflow-hidden transition-all duration-300"
-              style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)" }}
+              style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)" }}
               whileHover={{ borderColor: "rgba(197,168,128,0.22)" }}
             >
               <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-0">

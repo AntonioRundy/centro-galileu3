@@ -7,7 +7,7 @@ const cormorant = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "600"
 function DocumentMockup() {
   return (
     <div className="rounded-2xl overflow-hidden"
-      style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)", boxShadow: "0 24px 60px rgba(0,0,0,0.50)" }}>
+      style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)", boxShadow: "0 24px 60px rgba(0,0,0,0.50)" }}>
       {/* Doc header */}
       <div className="px-8 py-5 flex items-center justify-between"
         style={{ borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
@@ -49,7 +49,7 @@ function DocumentMockup() {
 
 export default function CsEditorial() {
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Left: document mockup */}

@@ -58,7 +58,7 @@ function PhotoCard({ member }: { member: TeamMember }) {
     <motion.div
       variants={itemVariants}
       className="group rounded-2xl overflow-hidden"
-      style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.08)" }}
+      style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.08)" }}
       whileHover={{ borderColor: "rgba(197,168,128,0.25)", y: -4 } as Record<string, unknown>}
     >
       {/* Photo — retrato editorial */}
@@ -95,7 +95,7 @@ function InitialsCard({ member }: { member: TeamMember }) {
     <motion.div
       variants={itemVariants}
       className="group rounded-2xl p-8 lg:p-10 transition-all duration-300"
-      style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)" }}
+      style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)" }}
       whileHover={{ borderColor: "rgba(197,168,128,0.20)", y: -3 }}
     >
       {/* Avatar */}
@@ -115,7 +115,7 @@ function InitialsCard({ member }: { member: TeamMember }) {
 
 export default function EduTeam() {
   return (
-    <section id="equipa" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section id="equipa" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto">
 
         <motion.div

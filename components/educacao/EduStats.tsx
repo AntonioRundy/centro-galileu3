@@ -37,14 +37,14 @@ const stats = [
 
 export default function EduStats() {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section className="py-16 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-px"
           style={{ border: "1px solid rgba(255,255,255,0.06)", borderRadius: "16px", overflow: "hidden" }}>
           {stats.map(({ prefix, value, suffix, label }, i) => (
             <div key={label} className="py-10 px-8 text-center"
               style={{
-                backgroundColor: "#111520",
+                backgroundColor: "#132038",
                 borderRight: i < 3 ? "1px solid rgba(255,255,255,0.06)" : "none",
               }}>
               <p className={`${playfair.className} text-4xl lg:text-5xl font-bold mb-2`}

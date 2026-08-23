@@ -27,7 +27,7 @@ export default function PsContact() {
   }
 
   const inputStyle = {
-    backgroundColor: "#111520",
+    backgroundColor: "#132038",
     border: "1px solid rgba(255,255,255,0.09)",
     color: "#F4F4F2",
     borderRadius: "12px",
@@ -39,7 +39,7 @@ export default function PsContact() {
   };
 
   return (
-    <section id="contacto" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section id="contacto" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
 
@@ -126,9 +126,9 @@ export default function PsContact() {
                   onFocus={(e) => (e.target.style.borderColor = "rgba(232,160,72,0.50)")}
                   onBlur={(e) => (e.target.style.borderColor = "rgba(255,255,255,0.09)")}
                 >
-                  <option value="" disabled style={{ backgroundColor: "#111520" }}>Seleccionar serviço</option>
+                  <option value="" disabled style={{ backgroundColor: "#132038" }}>Seleccionar serviço</option>
                   {services.map((s) => (
-                    <option key={s} value={s} style={{ backgroundColor: "#111520" }}>{s}</option>
+                    <option key={s} value={s} style={{ backgroundColor: "#132038" }}>{s}</option>
                   ))}
                 </select>
               </div>
@@ -151,7 +151,7 @@ export default function PsContact() {
                 className="w-full py-4 rounded-full font-semibold text-sm tracking-wide transition-all duration-300 hover:scale-[1.01]"
                 style={{
                   backgroundColor: sent ? "#16a34a" : "#E8A048",
-                  color: "#0A0B12",
+                  color: "#0A1526",
                   boxShadow: `0 4px 28px ${sent ? "rgba(22,163,74,0.30)" : "rgba(232,160,72,0.28)"}`,
                 }}
               >

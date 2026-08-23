@@ -37,7 +37,7 @@ export default function EduLevels() {
   const WA = `https://wa.me/244946038986?text=${encodeURIComponent("Olá! Gostaria de saber mais sobre os preços da Virtus Educação.")}`;
 
   return (
-    <section id="niveis" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section id="niveis" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
 
         <motion.div
@@ -66,7 +66,7 @@ export default function EduLevels() {
               onMouseLeave={() => setHovered(null)}
               className="rounded-2xl p-10 lg:p-12 flex flex-col justify-between min-h-[440px] cursor-default"
               style={{
-                backgroundColor: "#111520",
+                backgroundColor: "#132038",
                 border: hovered === l.code
                   ? "1px solid rgba(197,168,128,0.28)"
                   : "1px solid rgba(255,255,255,0.07)",

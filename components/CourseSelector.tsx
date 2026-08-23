@@ -74,7 +74,7 @@ export default function CourseSelector() {
               {subjects.map((s) => (
                 <button key={s.id} onClick={() => { setSubject(s); setStep(2); }}
                   className="card-lift group rounded-2xl p-8 text-center cursor-pointer"
-                  style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+                  style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
                   <p className="font-extrabold text-lg" style={{ color: "#F4F4F2" }}>{s.name}</p>
                   <p className="text-xs mt-1 leading-tight" style={{ color: "rgba(244,244,242,0.55)" }}>
                     {s.description}
@@ -104,7 +104,7 @@ export default function CourseSelector() {
               {levels.map((l) => (
                 <button key={l.key} onClick={() => { setLevel(l.key); setStep(3); }}
                   className="card-lift group rounded-2xl p-8 text-center cursor-pointer"
-                  style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+                  style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
                   <p className="font-extrabold text-2xl mb-1" style={{ color: "#F4F4F2" }}>{l.label}</p>
                   <p className="text-xs mt-1" style={{ color: "#C5A880" }}>{l.range}</p>
                 </button>
@@ -139,12 +139,12 @@ export default function CourseSelector() {
 
             {/* Price cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
-              <div className="rounded-2xl p-10" style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+              <div className="rounded-2xl p-10" style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
                 <span className="text-xs font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "rgba(22,163,74,0.15)", color: "#4ade80" }}>Online</span>
                 <p className="text-4xl font-black mt-4" style={{ color: "#F4F4F2" }}>{fmt(sp.online)}</p>
                 <p className="text-sm font-semibold mt-1" style={{ color: "rgba(244,244,242,0.55)" }}>por hora</p>
               </div>
-              <div className="rounded-2xl p-10" style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+              <div className="rounded-2xl p-10" style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
                 <span className="text-xs font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "rgba(197,168,128,0.12)", color: "#C5A880" }}>Ao Domicílio</span>
                 <p className="text-4xl font-black mt-4" style={{ color: "#F4F4F2" }}>{fmt(sp.domiciliar)}</p>
                 <p className="text-sm font-semibold mt-1" style={{ color: "rgba(244,244,242,0.55)" }}>por hora</p>
@@ -152,7 +152,7 @@ export default function CourseSelector() {
             </div>
 
             {/* Info box */}
-            <div className="rounded-2xl p-6 mb-4" style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+            <div className="rounded-2xl p-6 mb-4" style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
               <p className="text-sm font-semibold mb-0.5" style={{ color: "#F4F4F2" }}>Como funciona?</p>
               <p className="text-sm leading-relaxed" style={{ color: "rgba(244,244,242,0.70)" }}>
                 O encarregado monta o seu pacote conforme a necessidade do aluno. O preço é por hora de aula.
@@ -165,7 +165,7 @@ export default function CourseSelector() {
               </p>
             </div>
 
-            <div className="rounded-2xl p-6 mb-4" style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+            <div className="rounded-2xl p-6 mb-4" style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
               <p className="text-sm leading-relaxed" style={{ color: "rgba(244,244,242,0.70)" }}>{sp.description}</p>
             </div>
 
@@ -177,7 +177,7 @@ export default function CourseSelector() {
             </button>
 
             {expanded && (
-              <div className="rounded-2xl p-6 mb-6 animate-fade-in" style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+              <div className="rounded-2xl p-6 mb-6 animate-fade-in" style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
                 <p className="font-semibold text-sm mb-3" style={{ color: "#F4F4F2" }}>O que está incluído:</p>
                 <ul className="space-y-2.5">
                   {sp.features.map((f) => (

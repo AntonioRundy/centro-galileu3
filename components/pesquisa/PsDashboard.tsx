@@ -9,7 +9,7 @@ const months = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov
 
 export default function PsDashboard() {
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -49,7 +49,7 @@ export default function PsDashboard() {
             transition={{ duration: 0.80, delay: 0.10 }}
           >
             <div className="rounded-2xl overflow-hidden"
-              style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)", boxShadow: "0 24px 64px rgba(0,0,0,0.50)" }}>
+              style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)", boxShadow: "0 24px 64px rgba(0,0,0,0.50)" }}>
 
               {/* Top bar */}
               <div className="flex items-center justify-between px-6 py-4"
@@ -73,7 +73,7 @@ export default function PsDashboard() {
                   { label: "Sectores", value: "8" },
                   { label: "Cobertura", value: "94%" },
                 ].map(({ label, value }) => (
-                  <div key={label} className="py-5 px-5 text-center" style={{ backgroundColor: "#111520" }}>
+                  <div key={label} className="py-5 px-5 text-center" style={{ backgroundColor: "#132038" }}>
                     <p className={`${outfit.className} text-2xl font-bold mb-1`} style={{
                       background: "linear-gradient(135deg, #E8A048, #C5A880)",
                       WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text"

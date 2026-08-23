@@ -42,7 +42,7 @@ export default function ContactSection() {
 
             <a href={MAIL}
               className="flex items-center gap-5 rounded-2xl p-7 transition-all card-lift group"
-              style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)" }}>
+              style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)" }}>
               <div className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "rgba(197,168,128,0.10)" }}>
                 <Mail size={24} style={{ color: "#C5A880" }} />
               </div>
@@ -55,7 +55,7 @@ export default function ContactSection() {
               </div>
             </a>
 
-            <div className="flex items-center gap-5 rounded-2xl p-7" style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+            <div className="flex items-center gap-5 rounded-2xl p-7" style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
               <div className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>
                 <span style={{ color: "rgba(244,244,242,0.60)", fontSize: "1.25rem" }}>📞</span>
               </div>
@@ -66,7 +66,7 @@ export default function ContactSection() {
               </div>
             </div>
 
-            <div className="flex items-center gap-5 rounded-2xl p-7" style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+            <div className="flex items-center gap-5 rounded-2xl p-7" style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
               <div className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>
                 <span style={{ color: "rgba(244,244,242,0.60)", fontSize: "1.25rem" }}>📍</span>
               </div>
@@ -79,7 +79,7 @@ export default function ContactSection() {
           </div>
 
           {/* Right: reasons panel */}
-          <div className="rounded-2xl p-10 flex flex-col justify-between" style={{ backgroundColor: "#1E1208", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
+          <div className="rounded-2xl p-10 flex flex-col justify-between" style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.04)", boxShadow: "none" }}>
             <div>
               <h3 className="font-extrabold text-2xl mb-6" style={{ color: "#F4F4F2" }}>
                 Porque contactar-nos agora?

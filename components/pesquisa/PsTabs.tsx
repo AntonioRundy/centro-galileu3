@@ -73,7 +73,7 @@ export default function PsTabs() {
   const current = tabs.find((t) => t.id === active)!;
 
   return (
-    <section id="servicos" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section id="servicos" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto">
 
         {/* Header */}
@@ -102,7 +102,7 @@ export default function PsTabs() {
               className="relative px-5 py-2.5 rounded-full text-xs font-semibold tracking-wide transition-all duration-300"
               style={{
                 backgroundColor: active === tab.id ? "#E8A048" : "rgba(255,255,255,0.05)",
-                color: active === tab.id ? "#0A0B12" : "rgba(244,244,242,0.55)",
+                color: active === tab.id ? "#0A1526" : "rgba(244,244,242,0.55)",
                 border: active === tab.id ? "1px solid transparent" : "1px solid rgba(255,255,255,0.08)",
               }}
             >
@@ -123,7 +123,7 @@ export default function PsTabs() {
             style={{ border: "1px solid rgba(255,255,255,0.07)" }}
           >
             {/* Left: text */}
-            <div className="p-10 lg:p-14" style={{ backgroundColor: "#111520" }}>
+            <div className="p-10 lg:p-14" style={{ backgroundColor: "#132038" }}>
               <h3 className={`${outfit.className} text-2xl lg:text-3xl font-bold mb-5 leading-tight`}
                 style={{ color: "#FFFFFF", letterSpacing: "-0.015em" }}>
                 {current.title}

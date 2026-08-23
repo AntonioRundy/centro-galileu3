@@ -43,7 +43,7 @@ export default function InstitutionalHero() {
   return (
     <section
       className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden px-4 sm:px-6"
-      style={{ backgroundColor: "#070D1B" }}
+      style={{ backgroundColor: "#0E1B33" }}
     >
       {/* Fine dot grid */}
       <div className="absolute inset-0 pointer-events-none opacity-[0.022]" style={{

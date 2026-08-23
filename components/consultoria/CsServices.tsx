@@ -25,7 +25,7 @@ const itemVariants = {
 export default function CsServices() {
   const [hovered, setHovered] = useState<string | null>(null);
   return (
-    <section id="servicos" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section id="servicos" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.65 }} className="mb-20">
           <span className="text-xs font-semibold tracking-[0.26em] uppercase block mb-4" style={{ color: "#C5A880" }}>Serviços</span>
@@ -42,7 +42,7 @@ export default function CsServices() {
               onMouseLeave={() => setHovered(null)}
               className="rounded-2xl p-8 lg:p-9 flex flex-col transition-all duration-300 cursor-default"
               style={{
-                backgroundColor: "#111520",
+                backgroundColor: "#132038",
                 border: hovered === n ? "1px solid rgba(197,168,128,0.25)" : "1px solid rgba(255,255,255,0.07)",
                 transform: hovered === n ? "translateY(-4px)" : "translateY(0)",
               }}>

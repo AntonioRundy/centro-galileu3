@@ -43,7 +43,7 @@ const itemVariants = {
 
 export default function WhyVirtusSection() {
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
 
         <motion.div
@@ -72,7 +72,7 @@ export default function WhyVirtusSection() {
               key={title}
               variants={itemVariants}
               className="group rounded-2xl p-8 transition-all duration-300"
-              style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)" }}
+              style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)" }}
               whileHover={{ borderColor: "rgba(197,168,128,0.20)", y: -4 }}
             >
               <div

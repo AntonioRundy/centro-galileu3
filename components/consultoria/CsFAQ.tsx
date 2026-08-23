@@ -17,7 +17,7 @@ const faqs = [
 export default function CsFAQ() {
   const [open, setOpen] = useState<number | null>(0);
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-4xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.65 }} className="mb-16">
           <span className="text-xs font-semibold tracking-[0.26em] uppercase block mb-4" style={{ color: "#C5A880" }}>FAQ</span>
@@ -35,7 +35,7 @@ export default function CsFAQ() {
               style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
               <button onClick={() => setOpen(open === i ? null : i)}
                 className="w-full flex items-center justify-between px-7 py-6 text-left transition-colors"
-                style={{ backgroundColor: open === i ? "#1a1f2e" : "#111520" }}>
+                style={{ backgroundColor: open === i ? "#1a1f2e" : "#132038" }}>
                 <span className="font-semibold text-sm sm:text-base pr-6" style={{ color: "#FFFFFF" }}>{q}</span>
                 <motion.span animate={{ rotate: open === i ? 45 : 0 }} transition={{ duration: 0.22 }}
                   className="text-xl flex-shrink-0 font-light" style={{ color: "#C5A880" }}>+</motion.span>

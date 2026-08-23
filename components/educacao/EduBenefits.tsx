@@ -38,7 +38,7 @@ const itemVariants = {
 
 export default function EduBenefits() {
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto">
 
         {/* Header */}
@@ -67,7 +67,7 @@ export default function EduBenefits() {
           {benefits.map(({ n, title, desc }) => (
             <motion.div key={n} variants={itemVariants}
               className="rounded-2xl p-10 lg:p-12"
-              style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)" }}>
+              style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)" }}>
               <span className="text-xs font-bold tracking-[0.22em] uppercase block mb-7"
                 style={{ color: "rgba(197,168,128,0.50)" }}>
                 {n}

@@ -20,7 +20,7 @@ export default function CsContact() {
   }
 
   const inputStyle: React.CSSProperties = {
-    backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.09)",
+    backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.09)",
     color: "#F4F4F2", borderRadius: "12px", padding: "14px 18px",
     fontSize: "0.875rem", width: "100%", outline: "none", transition: "border-color 0.25s",
   };
@@ -31,7 +31,7 @@ export default function CsContact() {
     (e.target.style.borderColor = "rgba(255,255,255,0.09)");
 
   return (
-    <section id="contacto" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section id="contacto" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
           {/* Left */}
@@ -89,8 +89,8 @@ export default function CsContact() {
               <label className="text-xs font-medium block mb-2" style={{ color: "rgba(244,244,242,0.42)" }}>Tipo de apoio *</label>
               <select required value={form.type} onChange={(e) => setForm({ ...form, type: e.target.value })}
                 style={{ ...inputStyle, cursor: "pointer" }} onFocus={focusHandler} onBlur={blurHandler}>
-                <option value="" disabled style={{ backgroundColor: "#111520" }}>Seleccionar tipo</option>
-                {types.map((t) => <option key={t} value={t} style={{ backgroundColor: "#111520" }}>{t}</option>)}
+                <option value="" disabled style={{ backgroundColor: "#132038" }}>Seleccionar tipo</option>
+                {types.map((t) => <option key={t} value={t} style={{ backgroundColor: "#132038" }}>{t}</option>)}
               </select>
             </div>
             <div>
@@ -100,7 +100,7 @@ export default function CsContact() {
                 style={{ ...inputStyle, resize: "none" }} onFocus={focusHandler} onBlur={blurHandler} />
             </div>
             <button type="submit" className="w-full py-4 rounded-full font-semibold text-sm tracking-wide transition-all duration-300 hover:scale-[1.01]"
-              style={{ backgroundColor: sent ? "#16a34a" : "#C5A880", color: "#0A0B12", boxShadow: `0 4px 28px ${sent ? "rgba(22,163,74,0.28)" : "rgba(197,168,128,0.25)"}` }}>
+              style={{ backgroundColor: sent ? "#16a34a" : "#C5A880", color: "#0A1526", boxShadow: `0 4px 28px ${sent ? "rgba(22,163,74,0.28)" : "rgba(197,168,128,0.25)"}` }}>
               {sent ? "✓ Enviado via WhatsApp" : "Enviar Pedido de Orientação →"}
             </button>
             <p className="text-center text-xs" style={{ color: "rgba(244,244,242,0.28)" }}>A submissão abre o WhatsApp com os dados pré-preenchidos.</p>

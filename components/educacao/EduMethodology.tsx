@@ -24,7 +24,7 @@ const sections = [
 
 export default function EduMethodology() {
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto space-y-28 lg:space-y-36">
         {sections.map(({ tag, title, desc, image, reverse }) => (
           <div

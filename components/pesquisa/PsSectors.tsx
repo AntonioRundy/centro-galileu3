@@ -26,7 +26,7 @@ const itemVariants = {
 
 export default function PsSectors() {
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#070D1B" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0E1B33" }}>
       <div className="max-w-7xl mx-auto">
 
         <motion.div
@@ -57,7 +57,7 @@ export default function PsSectors() {
               key={abbr}
               variants={itemVariants}
               className="group rounded-xl p-6 lg:p-8 cursor-default transition-all duration-300"
-              style={{ backgroundColor: "#111520", border: "1px solid rgba(255,255,255,0.07)" }}
+              style={{ backgroundColor: "#132038", border: "1px solid rgba(255,255,255,0.07)" }}
               whileHover={{ borderColor: "rgba(232,160,72,0.25)", y: -3 }}
             >
               <span className={`${outfit.className} text-xs font-bold tracking-[0.18em] uppercase block mb-3`}

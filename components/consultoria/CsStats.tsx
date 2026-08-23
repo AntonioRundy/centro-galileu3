@@ -32,13 +32,13 @@ const stats = [
 
 export default function CsStats() {
   return (
-    <section className="py-14 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section className="py-14 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 lg:grid-cols-4"
           style={{ border: "1px solid rgba(255,255,255,0.06)", borderRadius: "16px", overflow: "hidden" }}>
           {stats.map(({ prefix, value, suffix, label }, i) => (
             <div key={label} className="py-10 px-8 text-center"
-              style={{ backgroundColor: "#111520", borderRight: i < 3 ? "1px solid rgba(255,255,255,0.06)" : "none" }}>
+              style={{ backgroundColor: "#132038", borderRight: i < 3 ? "1px solid rgba(255,255,255,0.06)" : "none" }}>
               <p className={`${cormorant.className} font-bold mb-2`}
                 style={{ fontSize: "clamp(2rem, 5vw, 3rem)", background: "linear-gradient(135deg, #C5A880, #D4A853)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
                 <Counter to={value} prefix={prefix} suffix={suffix} />

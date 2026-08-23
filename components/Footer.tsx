@@ -5,7 +5,7 @@ const WA_URL = "https://wa.me/244946038986";
 
 export default function Footer() {
   return (
-    <footer className="border-t pt-16 pb-8" style={{ backgroundColor: "#070D1B", borderColor: "rgba(255,255,255,0.05)" }}>
+    <footer className="border-t pt-16 pb-8" style={{ backgroundColor: "#0E1B33", borderColor: "rgba(255,255,255,0.05)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-14">
 

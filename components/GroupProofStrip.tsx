@@ -6,7 +6,7 @@ const proofs = [
 
 export default function GroupProofStrip() {
   return (
-    <section className="py-8 border-b" style={{ backgroundColor: "#070D1B", borderColor: "rgba(255,255,255,0.05)" }}>
+    <section className="py-8 border-b" style={{ backgroundColor: "#0E1B33", borderColor: "rgba(255,255,255,0.05)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
 

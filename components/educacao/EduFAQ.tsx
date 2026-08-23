@@ -18,7 +18,7 @@ export default function EduFAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section id="faq" className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-4xl mx-auto">
 
         <motion.div
@@ -49,7 +49,7 @@ export default function EduFAQ() {
               <button
                 onClick={() => setOpen(open === i ? null : i)}
                 className="w-full flex items-center justify-between px-7 py-6 text-left transition-colors"
-                style={{ backgroundColor: open === i ? "#1a1f30" : "#111520" }}
+                style={{ backgroundColor: open === i ? "#1a1f30" : "#132038" }}
               >
                 <span className="font-semibold text-sm sm:text-base pr-6" style={{ color: "#FFFFFF" }}>{q}</span>
                 <motion.span

@@ -47,7 +47,7 @@ export default function CsTabs() {
   const [active, setActive] = useState("sociais");
   const current = tabs.find((t) => t.id === active)!;
   return (
-    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A0B12" }}>
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#0A1526" }}>
       <div className="max-w-7xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.65 }} className="mb-14">
           <span className="text-xs font-semibold tracking-[0.26em] uppercase block mb-4" style={{ color: "#C5A880" }}>Áreas Científicas</span>
@@ -64,7 +64,7 @@ export default function CsTabs() {
               className="px-5 py-2.5 rounded-full text-xs font-semibold tracking-wide transition-all duration-300"
               style={{
                 backgroundColor: active === tab.id ? "#C5A880" : "rgba(255,255,255,0.05)",
-                color: active === tab.id ? "#0A0B12" : "rgba(244,244,242,0.55)",
+                color: active === tab.id ? "#0A1526" : "rgba(244,244,242,0.55)",
                 border: active === tab.id ? "1px solid transparent" : "1px solid rgba(255,255,255,0.08)",
               }}>
               {tab.label}
@@ -80,7 +80,7 @@ export default function CsTabs() {
             className="grid grid-cols-1 lg:grid-cols-[58%_42%] rounded-2xl overflow-hidden"
             style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
             {/* Left */}
-            <div className="p-10 lg:p-14" style={{ backgroundColor: "#111520" }}>
+            <div className="p-10 lg:p-14" style={{ backgroundColor: "#132038" }}>
               <h3 className={`${cormorant.className} font-semibold text-2xl lg:text-3xl mb-5 leading-tight`} style={{ color: "#FFFFFF" }}>
                 {current.title}
               </h3>
